@@ -23,6 +23,10 @@ Route::get('/halamantiga', function () {
     return view('halamantiga');
 });
 
+Route::get('/tabel', function () {
+    return view('tabel');
+});
+
 Route::get('halaman/halaman2','Contoh@halaman2');
 Route::resource('halaman','Contoh');
 
